@@ -1,0 +1,47 @@
+
+body {
+    background: url('https://i.imgur.com/Yl4EeyJ.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #663399;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
